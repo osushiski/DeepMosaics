@@ -2,7 +2,7 @@ import os
 import sys
 import traceback
 try:
-    from cores import Options,add,clean,style
+    from cores import Options,add,clean,style,core
     from util import util
     from models import loadmodel
 except Exception as e:
